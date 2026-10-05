@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/[...path].js": {
+      "includeFiles": "data/**"
+    }
+  },
+  "rewrites": [
+    { "source": "/", "destination": "/landing.html" },
+    { "source": "/sales", "destination": "/index.html" },
+    { "source": "/marketing", "destination": "/index.html" },
+    { "source": "/support", "destination": "/index.html" },
+    { "source": "/manager", "destination": "/index.html" }
+  ]
+}
